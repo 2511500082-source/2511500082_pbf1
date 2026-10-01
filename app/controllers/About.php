@@ -1,7 +1,7 @@
 <?php
 
 class About extends Controller {
-    public function index($nama = 'Dono', $pekerjaan = 'pelawak')
+    public function index($nama = 'Rani', $pekerjaan = 'Mahasiswa')
     {
         $data['nama'] = $nama;
         $data['pekerjaan'] = $pekerjaan;
